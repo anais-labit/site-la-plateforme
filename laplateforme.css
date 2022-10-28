@@ -42,6 +42,10 @@ nav span {
   font-size: 20px;
 }
 
+nav span:hover{
+  cursor: pointer;
+}
+
 .hero {
   font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
   font-size: 25px;
@@ -74,6 +78,9 @@ nav span {
 
 button a:hover {
   font-size: larger;
+  transition: all 300ms ease 0ms;
+  cursor: pointer;
+  position: relative;
 }
 
 .left .conditions {
@@ -100,7 +107,7 @@ button a:hover {
 .middle .container {
   display: flex;
   justify-content: center;
-}
+  }
 
 .middle h1 {
   font-size: 40px;
@@ -131,10 +138,12 @@ button a:hover {
 .middle button a {
   text-decoration: none;
   color: white;
+  position: relative;
 }
 
 .middle button a:hover {
-  font-size: larger;
+    transition: all 300ms ease 0ms;
+
 }
 
 .card1,
@@ -148,6 +157,7 @@ button a:hover {
   outline: none !important;
   border-color: #719ece;
   box-shadow: 0 0 10px #719ece;
+
 }
 
 .card1 img,
